@@ -10,6 +10,9 @@ group = "moe.awawa.perty"
 repositories {
     mavenCentral()
     jcenter()
+    maven {
+        url "https://nrnb-nexus.ucsd.edu/repository/cytoscape_releases/"
+    }
 }
 
 micronaut {
@@ -32,6 +35,10 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     testImplementation("org.assertj:assertj-core")
     testImplementation("org.mockito:mockito-core")
+
+    compile('org.cytoscape:viewmodel-api:3.8.2')
+    runtime('org.cytoscape:viewmodel-impl:3.8.2')
+
 }
 
 

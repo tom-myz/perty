@@ -1,3 +1,7 @@
+# PERTY
+PERTY is an application in order to generate directed graphs.  
+You can visualize task dependencies easily.
+
 ## Micronaut 2.3.0 Documentation
 
 - [User Guide](https://docs.micronaut.io/2.3.0/guide/index.html)
